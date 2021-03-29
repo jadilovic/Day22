@@ -1,13 +1,13 @@
 // src/App.js
 
-import './App.css';
+import "./App.css";
 import Box from "./Box.js";
 
 function App() {
   return (
-   <div className="container">
+    <div className="container">
       <Box />
-   </div>
+    </div>
   );
 }
 

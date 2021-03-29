@@ -18,7 +18,7 @@ class App extends Component {
         lastName: "Turing",
       },
     ];
-    
+
     return (
       <div className="container">
         <Table characterData={characters} />

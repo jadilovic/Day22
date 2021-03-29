@@ -15,19 +15,19 @@ const TableHeader = () => {
 
 const TableBody = (props) => {
   const rows = props.characterData.map((row, index) => {
-    return(
+    return (
       <tr key={index}>
         <td>{row.firstName}</td>
         <td>{row.lastName}</td>
       </tr>
-    )
-  })
+    );
+  });
   return <tbody>{rows}</tbody>;
 };
 
 class Table extends Component {
   render() {
-    const {characterData} = this.props;
+    const { characterData } = this.props;
     return (
       <table>
         <TableHeader />

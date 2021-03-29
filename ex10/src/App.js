@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Flower from "./Flower.js";
+import Box from "./Box.js";
 
 function App() {
   return (
     <div className="container">
-      <Flower color="red" />
+      <Box size="20" />
     </div>
   );
 }
